@@ -1,0 +1,39 @@
+{
+  "name": "remige",
+  "version": "0.1.0",
+  "description": "Remige is a forked version of libSquoosh, integrating Squoosh's image codecs directly into your JavaScript applications. This fork ensures continued support and enhancements, compatible with the latest Node.js versions for optimal performance in modern development environments.",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "squoosh",
+    "compress",
+    "image",
+    "avif",
+    "webp",
+    "jpegxl",
+    "mozjpeg"
+  ],
+  "repository": "https://github.com/iamspdarsan/remige.git",
+  "homepage": "https://github.com/iamspdarsan/remige",
+  "author": "PRIYADARSAN S <iamspdarsan@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "wasm-feature-detect": "^1.6.2",
+    "web-streams-polyfill": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "dev": "cls && tsc -p tscdev.json",
+    "build": "cls && tsc -p tsconfig.json"
+  }
+}
