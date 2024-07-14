@@ -1,6 +1,6 @@
 {
   "name": "remige",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remige is a forked version of libSquoosh, integrating Squoosh's image codecs directly into your JavaScript applications. This fork ensures continued support and enhancements, compatible with the latest Node.js versions for optimal performance in modern development environments.",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
