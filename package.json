@@ -16,7 +16,9 @@
     "jpegxl",
     "mozjpeg"
   ],
-  "repository": "https://github.com/iamspdarsan/remige.git",
+  "repository": {
+    "url": "https://github.com/iamspdarsan/remige.git"
+  },
   "homepage": "https://github.com/iamspdarsan/remige",
   "author": "PRIYADARSAN S <iamspdarsan@gmail.com>",
   "license": "Apache-2.0",
