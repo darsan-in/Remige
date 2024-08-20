@@ -1,50 +1,28 @@
 <div align="center">
 
-# [Title] - [short desc]
+# Remige - Forked Version of libSquoosh: Advanced Image Compression Framework for Superior File Size Reduction
 
-<p id="intro">[This is a placeholder paragraph. Here some introductory text or describe the content that will eventually go in this section. This text is meant to give a sense of how the final content will look in the design.]
-</p>
+<p id="intro">Remige is an advanced image compression framework, built as a fork of libSquoosh. By integrating Squoosh's powerful image codecs directly into JavaScript applications, Remige offers unparalleled compression performance and file size reduction. Designed for compatibility with the latest Node.js versions, Remige enhances image processing with modern features and optimized efficiency, making it the go-to solution for developers seeking top-tier image optimization.</p>
 
 ### Supported Platforms
 
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
 [![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
 
 ---
-
-[uname-holder/reponame-holder] [npm-name-holder] [wf-holder] - for test&build
 
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/commits/main">
-    <img src="https://img.shields.io/github/last-commit/uname-holder/reponame-holder?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
+  <a href="https://github.com/darsan-in/Remige/commits/main">
+    <img src="https://img.shields.io/github/last-commit/darsan-in/Remige?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/commit-activity/m/uname-holder/reponame-holder?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
-  </a>
-</span>
-
-</p>
-
-<p>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
-  </a>
-</span>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Test%20Status" alt="GitHub Actions Test Status"/>
+    <img src="https://img.shields.io/github/commit-activity/m/darsan-in/Remige?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
   </a>
 </span>
 
@@ -56,13 +34,13 @@
 
 <span>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/uname-holder/reponame-holder?style=for-the-badge&label=License" alt="GitHub License"/>
+    <img src="https://img.shields.io/github/license/darsan-in/Remige?style=for-the-badge&label=License" alt="GitHub License"/>
   </a>
 </span>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/releases">
-    <img src="https://img.shields.io/github/v/release/uname-holder/reponame-holder?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
+  <a href="https://github.com/darsan-in/Remige/releases">
+    <img src="https://img.shields.io/github/v/release/darsan-in/Remige?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
   </a>
 </span>
 
@@ -71,8 +49,8 @@
 <p>
 
 <span>
-  <a href="https://www.codefactor.io/repository/github/uname-holder/reponame-holder/issues/main">
-    <img src="https://img.shields.io/codefactor/grade/github/uname-holder/reponame-holder?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
+  <a href="https://www.codefactor.io/repository/github/darsan-in/Remige/issues/main">
+    <img src="https://img.shields.io/codefactor/grade/github/darsan-in/Remige?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
   </a>
 </span>
 
@@ -84,13 +62,13 @@
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/npm/d18m/npm-name-holder?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
+    <img src="https://img.shields.io/npm/d18m/remige?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/stars/uname-holder/reponame-holder?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
+    <img src="https://img.shields.io/github/stars/darsan-in/Remige?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
   </a>
 </span>
 
@@ -131,14 +109,19 @@
 
 ## Features and Benefits ✨
 
-- [f1]
-- [f2]
-- [fn]
+- **Node.js Compatibility**: Supports the latest Node.js versions, ensuring modern development compatibility.
+- **Direct Codec Integration**: Integrates Squoosh's image codecs directly within JavaScript applications.
+- **Optimized Performance**: Tailored for optimal performance in current development practices.
+- **ImagePool for Efficiency**: Efficiently manages parallel image processing through `ImagePool`.
+- **Auto Optimizer**: Includes an experimental auto optimizer for streamlined image compression.
 
 ## Use Cases ✅
 
-- [usecase 1]
-- [use case 2]
+- **Web Development**: Use Remige for compressing images in web applications, ensuring faster load times.
+- **Node.js Applications**: Integrate Remige into Node.js projects for high-performance image processing.
+- **Batch Processing**: Manage and process large batches of images efficiently with `ImagePool`.
+- **Image Preprocessing**: Resize and preprocess images before encoding for various formats.
+- **Automated Workflows**: Use Remige in CI/CD pipelines for automatic image optimization.
 
 ---
 
@@ -158,30 +141,112 @@ Thank you for being part of this journey. Your support means the world to us. �
 
 ## Installation - Step-by-Step Guide 🪜
 
-[Installation instructions here]
+- **Step 1:** Install Remige in your local project with:
 
-- **Step 1:**
-- **Step 2:**
-- **Step 3:**
-- **Step 4:**
-- **Step 5:**
+```bash
+$ npm install remige
+```
+
+- **Step 2:** To use Remige, import `ImagePool` and set up your image processing pipeline:
+
+```javascript
+import { ImagePool } from "remige";
+import { cpus } from "os";
+
+const imagePool = new ImagePool(cpus().length);
+```
+
+Ensure to only create one `ImagePool` instance to avoid memory issues during parallel image processing.
 
 ## Usage
 
-- [purpose heading]
-  [Demonstration here]
+All API remains same as [@squoosh/lib](https://www.npmjs.com/package/@squoosh/lib)
 
-```bash
-demo
+#### Ingesting Images
+
+Ingest images using `imagePool.ingestImage()`, accepting `ArrayBuffer` from `fs.readFile()` or `fetch()`.
+
+```javascript
+import fs from "fs/promises";
+
+const file = await fs.readFile("./path/to/image.png");
+const image = imagePool.ingestImage(file);
+```
+
+#### Preprocessing and Encoding Images
+
+Preprocess and encode images to various formats:
+
+```javascript
+const preprocessOptions = {
+  resize: {
+    width: 100,
+    height: 50,
+  },
+};
+
+await image.preprocess(preprocessOptions);
+
+const encodeOptions = {
+  mozjpeg: {}, // default settings
+  jxl: {
+    quality: 90,
+  },
+};
+
+const result = await image.encode(encodeOptions);
+```
+
+#### Closing ImagePool
+
+Close the `ImagePool` pipeline to prevent ingesting and encoding new images:
+
+```javascript
+await imagePool.close();
+```
+
+#### Writing Encoded Images to File System
+
+Write encoded images to the file system:
+
+```javascript
+const rawEncodedImage = image.encodedWith.mozjpeg.binary;
+
+await fs.writeFile("/path/to/new/image.jpg", rawEncodedImage);
+```
+
+#### Extracting Image Information
+
+Extract decoded and encoded image information:
+
+```javascript
+console.log(await image.decoded);
+console.log(image.encodedWith.jxl);
+```
+
+#### Auto Optimizer
+
+Remige includes an experimental auto optimizer:
+
+```javascript
+const encodeOptions = {
+  mozjpeg: "auto",
+};
 ```
 
 ## In-Action 🤺
 
-[video] or [gif] or [image]
+Identical Images but Different Size: Magic of Remige
+
+![Result of remige 1](in-action/result_1.png)
+
+![Result of remige 2](in-action/result_2.png)
+
+![Result of remige 3](in-action/result_3.png)
 
 ## License ©️
 
-This project is licensed under the [Apache License 2.0 or GNU General Public License v3.0 or MIT](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contributing to Our Project 🤝
 
@@ -197,7 +262,7 @@ Thank you for being part of this journey!
 
 ## Website 🌐
 
-<a id="url" href="https://darsan.in">[https://darsan.in]</a>
+<a id="url" href="https://squoosh.app/">squoosh.app</a>
 
 ## Contact Information
 
@@ -205,7 +270,7 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 
 ## Credits 🙏🏻
 
-[credits to lib maintainers/creators]
+Remige is a forked version of [libSquoosh](https://github.com/GoogleChromeLabs/squoosh), originally developed and maintained by the [GoogleChromeLabs](https://github.com/GoogleChromeLabs). We credit the Squoosh team for their foundational work and contributions to image compression technology.
 
 ---
 
@@ -278,10 +343,24 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-
+<li>image compression</li>
+<li>Node.js library</li>
+<li>JavaScript codecs</li>
+<li>image optimization</li>
+<li>Squoosh fork</li>
+<li>modern development</li>
+<li>parallel processing</li>
+<li>image encoding</li>
+<li>image resizing</li>
+<li>web development</li>
+<li>batch processing</li>
+<li>auto optimizer</li>
+<li>Node.js integration</li>
+<li>CI/CD pipelines</li>
+<li>performance enhancement</li>
+<li>image preprocessing</li>
+<li>high-performance tools</li>
+<li>open-source projects</li>
+<li>image processing pipeline</li>
+<li>memory management</li>
 </ul>
