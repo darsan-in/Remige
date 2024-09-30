@@ -1,25 +1,38 @@
 {
   "name": "remige",
-  "version": "0.1.1",
-  "description": "Remige is a forked version of libSquoosh, integrating Squoosh's image codecs directly into your JavaScript applications. This fork ensures continued support and enhancements, compatible with the latest Node.js versions for optimal performance in modern development environments.",
+  "version": "0.1.2",
+  "description": "Remige is an advanced image compression framework, built as a fork of libSquoosh. By integrating Squoosh's powerful image codecs directly into JavaScript applications, Remige offers unparalleled compression performance and file size reduction. Designed for compatibility with the latest Node.js versions, Remige enhances image processing with modern features and optimized efficiency, making it the go-to solution for developers seeking top-tier image optimization.",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
   "files": [
     "dist"
   ],
   "keywords": [
-    "squoosh",
-    "compress",
-    "image",
-    "avif",
-    "webp",
-    "jpegxl",
-    "mozjpeg"
+    "image compression",
+    "node.js library",
+    "javascript codecs",
+    "image optimization",
+    "squoosh fork",
+    "modern development",
+    "parallel processing",
+    "image encoding",
+    "image resizing",
+    "web development",
+    "batch processing",
+    "auto optimizer",
+    "node.js integration",
+    "ci/cd pipelines",
+    "performance enhancement",
+    "image preprocessing",
+    "high-performance tools",
+    "open-source projects",
+    "image processing pipeline",
+    "memory management"
   ],
   "repository": {
     "url": "https://github.com/iamspdarsan/remige.git"
   },
-  "homepage": "https://github.com/iamspdarsan/remige",
+  "homepage": "https://squoosh.app/",
   "author": "PRIYADARSAN S <iamspdarsan@gmail.com>",
   "license": "Apache-2.0",
   "private": false,
